@@ -6,4 +6,6 @@ The query and similar queries listed are stored in the graph structure.
 
 In this assignment, you are required to take two query strings and graphs connected to these two queries as input information, design an algorithm that combines (merges) two graphs if there is a common string, and write a program in C language.
 
-In the example below, B, C, and D are suggested when A is queried, and B, C, H, and I are suggested when F is queried. Since B and C are common to both graphs, a single graph was obtained from two graphs by combining them from B and C. The first graph consists of strings A,B,C,D, and the second graph consists of strings B,C,F,H,I, while the new graph consists of strings A,B,C,D,F,H,I.
+In the example below, B, C, and D are suggested when A is queried, and B, C, H, and I are suggested when F is queried. Since B and C are common to both graphs, 
+a single graph was obtained from two graphs by combining them from B and C. 
+The first graph consists of strings A,B,C,D, and the second graph consists of strings B,C,F,H,I, while the new graph consists of strings A,B,C,D,F,H,I.

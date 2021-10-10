@@ -1,0 +1,7 @@
+The two spies will communicate with each other, trusting each other when their key codes match. The encoding given as a string should be read and decoded according to the following rule.
+
+Each letter of the code in the form of a character string has a singular character [a z] or a digit [0 9].
+When a number is seen, the character in front of the number as much as its value should be deleted.
+The remaining characters form the spy's keycode.
+
+There is especially a lot of confusing code being produced around and it is important to establish communication quickly. Therefore, it is necessary for a spy to compare his own code with the code received from the other spy with a maximum complexity of O(N).

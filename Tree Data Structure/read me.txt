@@ -1,0 +1,18 @@
+In this assignment, you are required to design an algorithm that instantiates the directory structure of an operating system using the tree data structure and write its program in C language. The starting location is the root directory. 
+The commands valid in this system and the functions of these commands are as follows:
+
+1- mkdir name : Creates a new directory with the name given under the current directory.
+Error Conditions: Operation cannot be performed if there is a directory with the same name.
+
+2- chdir name : Allows you to switch from the current directory to a subdirectory with the given name. If you have one with that name
+If there is no subdirectory it will give an error message. When you want to go to the top directory, chdir .. should be typed.
+
+Error Conditions: If there is no directory with the specified name, if it wants to go higher while root, the action cannot be taken.
+
+3- rmdir name : Deletes a subdirectory with the given name from the current directory.
+
+Error Cases: If there is no subdirectory with that name or if there are other directories under the directory to be deleted, that is, if it is full, an error message is given. If there is no directory with the specified name, if it wants to go higher while at root, the action cannot be taken.
+
+4- dir : It displays all the directories under the current directory on the screen with a tree structure.
+
+5- count : It shows the number of directories in the level under the current directory. No action is taken on lower levels.
